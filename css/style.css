@@ -1,0 +1,200 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+  
+  }
+  
+  /* Remove list styles on ul, ol elements with a class attribute */
+  ul[class],
+  ol[class] {
+    list-style: none;
+  }
+  
+  /* A elements that don't have a class get default styles */
+  a:not([class]) {
+    text-decoration-skip-ink: auto;
+  }
+  
+  /* Make images easier to work with */
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  /* Natural flow and rhythm in articles by default */
+  article > * + * {
+    margin-top: 1em;
+  }
+  
+  /* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.header {
+    height:100vh;
+    background-image: url(../images/mobile/image-hero.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    padding: 10% 5%;
+    
+}
+* h1, h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+} 
+* p {
+    font-family: 'Alata', sans-serif;
+    color: hsl(0, 0%, 41%);
+}
+
+.heading-primary {
+    /* font-family: 'Josefin Sans', sans-serif; */
+    color: #ffffff;
+    line-height: 110%;
+    padding: 7%;
+    letter-spacing: 5px;
+}
+
+.heading-main {
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.heading-main-2 {
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 8%;
+}
+
+.text-main {
+    text-align: center;
+}
+
+.text-box {
+    border: white solid;
+    margin-top: 170px;
+    
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    font-family: 'Alata', sans-serif;
+}
+
+a.nav-links {
+    text-decoration: none;
+    display: none;
+}
+
+.main-content {
+    padding: 0 5% 0 5%;
+}
+
+.description {
+    margin-top: 10vh;
+}
+
+.creations {
+    margin-bottom: 10%;
+    /* position: relative; */
+}
+
+.creation-item {
+    position: relative; 
+    width: 100%; 
+    margin-bottom: 10%;
+}
+
+.creation-text-box {
+    position: absolute;
+    color: #ffffff;
+}
+
+h2.creation-item {
+    display: inline-block;
+    top: 200px; 
+    left: 0; 
+    width: 100%; 
+}
+
+h2 span {
+    display:block;
+}
+
+.footer {
+    background-color: hsl(0, 0%, 0%);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    
+}
+
+/* .footer ul {
+    margin
+} */
+
+.footer li {
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Alata', sans-serif;;
+}
+
+/* when the screen is less than 600px wide hide all links  */
+@media (max-width: 600px){
+
+   
+
+  
+
+}
+
+
+
