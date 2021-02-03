@@ -180,11 +180,32 @@ h2 span {
     margin
 } */
 
+.footer-items {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 .footer li {
     text-decoration: none;
     list-style-type: none;
     text-align: center;
     font-family: 'Alata', sans-serif;;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo-box {
+    display: flex;
+    justify-content: center;
 }
 
 /* when the screen is less than 600px wide hide all links  */
